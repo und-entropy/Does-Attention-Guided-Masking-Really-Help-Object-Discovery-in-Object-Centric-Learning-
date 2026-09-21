@@ -1,0 +1,55 @@
+\begin{tabular}{cclcccc}
+\toprule
+% \multicolumn{7}{l}{\scriptsize\textit{Baseline: SmoothSA}}\\[-2pt]
+% \midrule
+data type
+& slot initializ.
+& dataset
+& $\Delta$ARI
+& $\Delta$FG-ARI
+& $\Delta$mBO
+& $\Delta$mIoU \\
+\midrule
+\multirow{3}{*}{image}
+& \multirow{3}{*}{unconditional}
+& CLEVRTex
+& $-3.96_{\pm1.70}$
+& $-6.23_{\pm0.15}$
+& $-4.38_{\pm1.04}$
+& $-5.40_{\pm1.30}$ \\
+&
+& COCO
+& $+14.77_{\pm1.59}$
+& $-2.34_{\pm1.72}$
+& $+4.11_{\pm0.49}$
+& $+4.07_{\pm0.63}$ \\
+&
+& VOC
+& $+17.36_{\pm3.72}$
+& $-4.01_{\pm1.32}$
+& $+5.45_{\pm0.71}$
+& $+5.55_{\pm0.72}$ \\
+\midrule
+\multirow{3}{*}{video}
+& unconditional
+& YTVIS-2022
+& $-2.27_{\pm1.01}$
+& $+0.64_{\pm2.68}$
+& $-1.97_{\pm0.82}$
+& $-1.60_{\pm0.85}$ \\
+\cmidrule(lr){2-7}
+&
+\multirow{2}{*}{conditional}
+& MOVi-C
+& $-6.22_{\pm19.51}$
+& $+0.50_{\pm2.57}$
+& $-3.12_{\pm6.44}$
+& $-2.77_{\pm6.72}$ \\
+&
+& MOVi-E
+& $+14.11_{\pm2.82}$
+& $-1.66_{\pm1.20}$
+& $+1.60_{\pm0.54}$
+& $+1.76_{\pm0.48}$ \\
+\bottomrule
+\end{tabular}
