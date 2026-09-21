@@ -1,0 +1,2 @@
+# Does-Attention-Guided-Masking-Really-Help-Object-Discovery-in-Object-Centric-Learning-
+https://arxiv.org/abs/2609.15187 . Authors: Youliang Tao, Yanhua Han, Bin Zhao, Juho Kannala, Joni Pajarinen, and Rongzhen Zhao.This repository is based on [SmoothSA](https://github.com/Genera1Z/SmoothSA). It studies the effect of replacing random masking (RM) in the decoder with attention-guided masking (AGM).
