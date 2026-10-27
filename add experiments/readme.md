@@ -38,3 +38,9 @@ python "add experiments/plot_main_qualitative_AGM.py"
 ```
 
 The benchmark and actual-mask scripts require CUDA, datasets, checkpoints, and their corresponding logs. Generated files are written below `add experiments/outputs/` when those scripts are run locally; generated outputs are not included in the release package.
+
+## Checkpoints
+
+The experiment checkpoint files have been uploaded to the Hugging Face Hub:
+
+🔗 [https://huggingface.co/Lumosa/attention-guided-masking-ckpt](https://huggingface.co/Lumosa/attention-guided-masking-ckpt)
