@@ -76,6 +76,12 @@ python eval.py --cfg_file config-smoothsa/smoothsa_r-coco_AGM.py --data_dir /pat
 
 Image experiments use a learning rate of 2e-4 and video experiments use 5e-5. COCO uses 100k steps; the other domains use 50k steps. MOVi-C and MOVi-E initialize slots from first-frame target boxes; the other domains use unconditional initialization.
 
+## Checkpoints
+
+The experiment checkpoint files have been uploaded to the Hugging Face Hub:
+
+🔗 [https://huggingface.co/Lumosa/attention-guided-masking-ckpt](https://huggingface.co/Lumosa/attention-guided-masking-ckpt)
+
 ## License and citation
 
 The base implementation comes from [Genera1Z/SmoothSA](https://github.com/Genera1Z/SmoothSA), whose MIT license is retained. Please cite the workshop paper and SmoothSA together. Dataset and figure copyrights remain with their respective authors.
