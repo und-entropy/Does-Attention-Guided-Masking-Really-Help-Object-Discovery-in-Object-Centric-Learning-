@@ -20,3 +20,9 @@ Model names are `smoothsa_r-clevrtex`, `smoothsa_r-coco`, `smoothsa_r-voc`, `smo
 Training logs may be stored as `seed42.txt`, `seed43.txt`, and `seed44.txt` under each model directory. The legacy flat layout containing files such as `42-0025.pth` and `42.txt` is also supported. Keep the original seed and epoch names, and do not share one `best.pth` across seeds.
 
 Checkpoint files are ignored by `.gitignore` and should be distributed separately by the authors. Dataset files are not included.
+
+## Checkpoints
+
+The experiment checkpoint files have been uploaded to the Hugging Face Hub:
+
+🔗 [https://huggingface.co/Lumosa/attention-guided-masking-ckpt](https://huggingface.co/Lumosa/attention-guided-masking-ckpt)
